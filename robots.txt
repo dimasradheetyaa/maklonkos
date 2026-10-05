@@ -1,0 +1,109 @@
+# ==============================================================================
+# Robots.txt for Maklon Kosmetik ID (https://maklonkosmetik.id)
+# Optimized for Search Engine Optimization (SEO), Answer Engine Optimization (AEO),
+# Generative Engine Optimization (GEO), and AI Knowledge Crawlers.
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Global Default Crawler Instructions (All Bots & Search Engines)
+# ------------------------------------------------------------------------------
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/img/
+Allow: /assets/vendor/
+Allow: /layanan/
+Allow: /paket/
+Allow: /produk/
+Allow: /blog/
+Disallow: /scratch/
+Disallow: /.system_generated/
+Disallow: /tmp/
+
+# ------------------------------------------------------------------------------
+# Traditional Search Engine Crawlers (SEO)
+# ------------------------------------------------------------------------------
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /assets/img/
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Answer Engine Optimization Crawlers (AEO & AI Search)
+# ------------------------------------------------------------------------------
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Generative Engine Optimization Crawlers (GEO & LLM Training/RAG)
+# ------------------------------------------------------------------------------
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Sitemap Location
+# ------------------------------------------------------------------------------
+Sitemap: https://maklonkosmetik.id/sitemap.xml
